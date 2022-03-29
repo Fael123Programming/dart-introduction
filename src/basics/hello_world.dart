@@ -6,6 +6,7 @@
 //Type annotation is optional.
 //Dart infers the data type.
 //Once it was set, it never changes.
+//Dart is null-safe: use ? after a data type to state it can be null either.
 
 void main() {
   print("Hello world!");
