@@ -50,6 +50,9 @@ void testAlgorithms() {
 void main() {
   print("Enter the amount: \$");
   String? input = stdin.readLineSync();
-  if (input == "") print("Cannot be null");
-  
+  int amount = int.parse(input.toString());
+  List<int> quantities = calculate(amount);
+  String res = "";
+  quantities.forEach((e) => res += e.toString() + " ");
+  print(res);
 }
