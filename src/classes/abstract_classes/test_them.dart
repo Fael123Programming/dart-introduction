@@ -8,4 +8,5 @@ void main() {
   print(c.model);
   print(c.engine.model);
   print(c.engine.potency);
+  print(c);
 }

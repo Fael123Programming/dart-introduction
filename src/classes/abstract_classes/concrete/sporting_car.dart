@@ -25,4 +25,9 @@ class SportingCar extends Car {
   Engine setEngine() {
     return SportingEngine("WBR Motors", "V12", 1000);
   }
+
+  @override
+  String toString() {
+    return '{brand=$brand, model=$model, color=$color, engine=${super.engine}}';
+  }
 }
