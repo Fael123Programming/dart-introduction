@@ -1,8 +1,6 @@
 void main() {
   List<int> nums = [1, 2, 3, 4, 5];
-  var even = nums.where(
-    (element) => element.isEven,
-  );
+  var even = nums.where((element) => element.isEven);
   print(even);
   //Where is similar to filter: it receives a bool expression
   //and goes through all elements returning at the end, only

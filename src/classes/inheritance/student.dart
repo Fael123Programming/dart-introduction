@@ -8,6 +8,7 @@ class Student extends Person {
     _school = school;
     _student_class = student_class;
   }
+
   //Named constructors are not inherited.
 
   //Getters.
@@ -20,11 +21,16 @@ class Student extends Person {
   }
 
   //Setters.
-  set school(String school) {
+  void set school(String school) {
     _school = school.isEmpty ? "" : school;
   }
 
-  set student_class(String student_class) {
+  void set student_class(String student_class) {
     _student_class = student_class;
+  }
+
+  @override
+  int getId() {
+    return super.getId() + 1;
   }
 }
