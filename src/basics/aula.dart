@@ -86,7 +86,7 @@ void main() {
   print("Resultado Sub: ${resultadoSub}");
 
   print("Jogador: ${nomeJogador(null)}");
-  print("Jogador: ${nomeJogador("Marcel")}");
+  print("Jogador: ${nomeJogador('Marcel')}");
 
   print("Digite seu nome: ");
   var input = stdin.readLineSync();

@@ -21,4 +21,9 @@ void main() {
   });
   map.clear();
   print(map);
+  //CRUD
+  //C: Create;
+  //R: Read;
+  //U: Update;
+  //D: Delete.
 }
